@@ -1,0 +1,20 @@
+# Ignorar bases de datos locales
+*.db
+*.pdf
+*.spec
+*xlsx
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+# Ignorar las carpetas build , dist y Icon
+build/
+dist/
+Icon/
+
+
+# Ignorar archivos temporales de sistema
+.DS_Store
+
+# Ignorar ejecutables
+*.exe
