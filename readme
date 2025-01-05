@@ -1,0 +1,70 @@
+# Control de Ventas - Taller
+
+Este es un programa de control de ventas para talleres, que permite gestionar transacciones, generar reportes y calcular ganancias de productos vendidos. Está diseñado para ser fácil de usar y automatizar las tareas diarias relacionadas con las ventas.
+
+## Funcionalidades
+
+- **Registrar Ventas**: Puedes agregar ventas a la base de datos, proporcionando detalles como el nombre del producto, cantidad, precio de venta y precio original.
+- **Generar Reportes**: Genera reportes diarios en formato PDF con todas las transacciones realizadas en un día.
+- **Visualizar Transacciones**: Muestra las transacciones registradas en una interfaz gráfica.
+- **Base de Datos**: Utiliza SQLite para almacenar las transacciones, garantizando que los datos se mantengan seguros y organizados.
+
+## Requisitos
+
+Para ejecutar este programa, necesitas tener instalados los siguientes componentes:
+
+- **Python 3.10 o superior**: El programa está desarrollado en Python.
+- **Bibliotecas necesarias**:
+  - `sqlite3` (para manejar la base de datos)
+  - `openpyxl` (para leer archivos Excel)
+  - `tkinter` (para la interfaz gráfica)
+  - `reportlab` (para generar reportes en PDF)
+  - `pyinstaller` (para crear el ejecutable)
+  
+Puedes instalar las dependencias necesarias usando `pip`:
+
+```bash
+pip install openpyxl reportlab pyinstaller
+```
+
+## Instrucciones de Instalación
+
+1. **Descargar el archivo comprimido**: Obtén el archivo ZIP que contiene el ejecutable y los archivos necesarios (base de datos, productos Excel, etc.).
+2. **Descomprimir los archivos**: Extrae los archivos en una carpeta de tu preferencia.
+3. **Ejecutar el programa**: Haz doble clic sobre el ejecutable `mi_programa.exe` para iniciar el programa.
+
+## Uso
+
+### Agregar una Venta
+
+1. Abre el programa.
+2. Introduce el **índice o nombre del producto** que deseas vender.
+3. Introduce la **cantidad** de producto vendida.
+4. Haz clic en "Agregar Venta". El programa calculará la ganancia y el monto total, y los añadirá a la base de datos.
+
+### Generar Reporte Diario
+
+1. Haz clic en "Generar Reporte" para obtener un informe en PDF de todas las transacciones realizadas en el día.
+2. El programa te preguntará si deseas ver el reporte. Si respondes que sí, se abrirá el archivo PDF generado.
+
+### Visualizar las Transacciones
+
+Las transacciones registradas se mostrarán en una tabla dentro de la interfaz. Los detalles incluyen el nombre del producto, cantidad, precio de venta, monto total y ganancia.
+
+## Archivos del Programa
+
+- **finanzas.db**: Base de datos que almacena las transacciones.
+- **productos.xlsx**: Archivo Excel que contiene información sobre los productos disponibles (índice, nombre, precio de venta, precio original).
+- **Taller.exe**: El archivo ejecutable del programa (Windows).
+
+## Soporte
+
+Si tienes problemas o preguntas, por favor contáctame a través de joaourteaga52@gmail.com o abre un **issue** en el repositorio de GitHub si decides compartir el código allí.
+
+## Licencia
+
+Este programa está licenciado bajo la Licencia MIT. Puedes usar, modificar y distribuir el software de acuerdo con los términos de esta licencia.
+
+---
+
+**¡Gracias por usar el Control de Ventas - Taller!**
