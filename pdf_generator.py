@@ -68,7 +68,7 @@ class PDF(FPDF):
 
 def generar_reporte(transacciones):
     fecha_actual = datetime.now().strftime('%Y-%m-%d')
-    ruta = r"c:\Users\KJhonatan\OneDrive\Escritorio\mi_taller\reporte_" + fecha_actual + ".pdf"
+    ruta = r"C:\Users\KJhonatan\OneDrive\Escritorio\Reportes\reporte_" + fecha_actual + ".pdf"
 
     # Crear la instancia del PDF y pasar las transacciones
     pdf = PDF(transacciones)  # Pasar las transacciones aquí
